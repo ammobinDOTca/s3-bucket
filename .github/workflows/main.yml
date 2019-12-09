@@ -31,5 +31,7 @@ jobs:
       with:
         target_branch: gh-pages
         build_dir: ammobin-client/dist
+        keep_history: true
+        fqdn: client.github.ammobin.ca
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
