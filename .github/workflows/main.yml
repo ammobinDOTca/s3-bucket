@@ -21,7 +21,6 @@ jobs:
       run: |
         git clone https://github.com/ammobinDOTca/ammobin-client.git
         cd ammobin-client
-        git checkout aws
         npm i
         npm run generate
         cp -r dist/* ../ 
