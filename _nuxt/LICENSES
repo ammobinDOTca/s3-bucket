@@ -17,13 +17,6 @@
  */
 
 /*!
- * Determine if an object is a Buffer
- *
- * @author   Feross Aboukhadijeh <https://feross.org>
- * @license  MIT
- */
-
-/*!
  * @nuxt/vue-app v2.11.0 (c) 2016-2019
 
  * - All the amazing contributors
