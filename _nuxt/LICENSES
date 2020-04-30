@@ -1,38 +1,20 @@
 /*!
- * Vue.js v2.6.11
- * (c) 2014-2019 Evan You
- * Released under the MIT License.
- */
-
-/*!
-  * vue-router v3.1.3
-  * (c) 2019 Evan You
+  * vue-router v3.1.6
+  * (c) 2020 Evan You
   * @license MIT
   */
 
-/**
- * vuex v3.1.2
- * (c) 2019 Evan You
- * @license MIT
- */
-
 /*!
- * @nuxt/vue-app v2.11.0 (c) 2016-2019
+ * @nuxt/vue-app v2.12.2 (c) 2016-2020
 
  * - All the amazing contributors
  * Released under the MIT License.
  * Website: https://nuxtjs.org
 */
 
-/**
-  * vue-class-component v7.2.3
-  * (c) 2015-present Evan You
-  * @license MIT
-  */
-
 /*!
- * vue-no-ssr v1.1.1
- * (c) 2018-present egoist <0x142857@gmail.com>
+ * Vue.js v2.6.11
+ * (c) 2014-2019 Evan You
  * Released under the MIT License.
  */
 
@@ -43,14 +25,127 @@
  */
 
 /*!
- * vue-i18n v8.15.3 
- * (c) 2019 kazuya kawaguchi
+ * vue-i18n v8.17.4 
+ * (c) 2020 kazuya kawaguchi
  * Released under the MIT License.
  */
 
 /*!
- * The buffer module from node.js, for the browser.
+ * vue-no-ssr v1.1.1
+ * (c) 2018-present egoist <0x142857@gmail.com>
+ * Released under the MIT License.
+ */
+
+/*! https://mths.be/he v1.2.0 by @mathias | MIT license */
+
+/**
+  * vue-class-component v7.2.3
+  * (c) 2015-present Evan You
+  * @license MIT
+  */
+
+/**
+ * @preserve
+ * HappyNodeTokenizer
+ * v1.0.0
  *
- * @author   Feross Aboukhadijeh <http://feross.org>
- * @license  MIT
+ * A basic, Twitter-aware tokenizer.
+ *
+ * Help me make this better:
+ * https://github.com/phugh/happynodetokenizer
+ *
+ * Based on HappierFunTokenizing.py - Copyright 2011, Christopher Potts
+ * by: Christopher Potts, updated: H. Andrew Schwartz (www.wwbp.org)
+ *
+ * (C) 2017-19 P. Hughes
+ * Licence : Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
+ * http://creativecommons.org/licenses/by-nc-sa/3.0/
+ *
+ * @name         HappyNodeTokenizer
+ * @file         index.js
+ * @description  A basic, Twitter-aware tokenizer.
+ * @version      1.0.0
+ * @exports      (tokenize|tokenizeSync)
+ * @requires     he
+ * @author       P. Hughes <peter@phugh.es> (https://www.phugh.es)
+ * @copyright    2017-19 P. Hughes. All rights reserved.
+ * @license      CC-BY-NC-SA-3.0
+ *
+ * Default options (opts):
+ *  {
+ *    "output": "array",  // output tokens as an "array" (default) or "string"
+ *    "delim": ","        // delimiter for string outputs (default = ",")
+ *    "escape": 0         // when outputting to a string, escape commas and
+ *                        //  quote marks with double-quotes, e.g.
+ *                        //  '"hello, you" he said' becomes:
+ *                        //  '",hello,,,you,",he,said' when escape = false, or
+ *                        //  '""",hello,",",you,""",he,said' when true
+ *                        // 0 = don't escape anything (default)
+ *                        // 1 = escape the delimiter only
+ *                        // 2 = escape the delimiter, quotes and commas
+ *    "logs": 2,          // 0 = suppress all logs
+ *                        // 1 = print errors only
+ *                        // 2 = print errors and warnings (default)
+ *                        // 3 = print all console logs
+ *    "strict": false     // true = functions throw errors
+ *                        // false = functions return gracefully on errors
+ *    "normalize": true   // Replace unicode characters (accents etc.)
+ *                        // true = replace input with the Unicode Normalization Form of the string (default)
+ *                        // false = do not normalize strings - N.B. may cause problems with accented characters etc.
+ *  }
+ *
+ * @example
+ *  const tokenizer = require("happynodetokenizer");
+ *  const text = "A big long string of text...";
+ *  const opts = {"output": "array", "escape": 0, "logs": 2}
+ *  const tokens = tokenizer(text, opts);
+ *  console.log(tokens)
+ */
+
+/**
+ * @preserve
+ * SimpleNGrams
+ * v1.0.0
+ *
+ * Help me make this better:
+ * https://github.com/phugh/simplengrams
+ *
+ * (C) 2017-19 P. Hughes
+ * License : Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
+ * http://creativecommons.org/licenses/by-nc-sa/3.0/
+ *
+ * @name         SimpleNGrams
+ * @file         index.js
+ * @description  Returns a 2d array of n-grams
+ * @version      1.0.0
+ * @exports      (simplengrams|simplengramsSync)
+ * @requires     happynodetokenizer
+ * @author       P. Hughes <peter@phugh.es> (https://www.phugh.es)
+ * @copyright    2017-19 P. Hughes. All rights reserved.
+ * @license      CC-BY-NC-SA-3.0
+ *
+ * @example
+ *  const ngrams = require('simplengrams');
+ *  const txt = 'A string of text, any text what so ever!';
+ *  const opts = {logs: 3, normalize: true, strict: true};
+ *  const bigrams = ngrams(txt, 2, opts);
+ *  const trigrams = ngrams(txt, 3, opts);
+ *  console.log(bigrams, trigrams);
+ *
+ * Options: {
+ *    "logs": 3,          // 0 = suppress all logs
+ *                        // 1 = print errors only
+ *                        // 2 = print errors and warnings
+ *                        // 3 = print all console logs
+ *    "normalize": true,  // false = don't normalize string
+ *                        // true = apply string.prototype.normalize()
+ *    "strict": false,    // false = don't throw errors
+ *                        // true  = throw errors
+ * }
+ */
+
+/**
+ * vuex v3.3.0
+ * (c) 2020 Evan You
+ * @license MIT
  */
