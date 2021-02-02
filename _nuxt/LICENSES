@@ -1,11 +1,11 @@
 /*!
-  * vue-router v3.4.5
+  * vue-router v3.4.9
   * (c) 2020 Evan You
   * @license MIT
   */
 
 /*!
- * @nuxt/vue-app v2.14.4 (c) 2016-2020
+ * @nuxt/vue-app v2.14.12 (c) 2016-2020
 
  * - All the amazing contributors
  * Released under the MIT License.
@@ -25,13 +25,19 @@
  */
 
 /*!
+ * vue-i18n v8.22.4 
+ * (c) 2021 kazuya kawaguchi
+ * Released under the MIT License.
+ */
+
+/*!
  * vue-no-ssr v1.1.1
  * (c) 2018-present egoist <0x142857@gmail.com>
  * Released under the MIT License.
  */
 
 /*!
- * vuex v3.5.1
+ * vuex v3.6.0
  * (c) 2020 Evan You
  * @license MIT
  */
@@ -39,7 +45,7 @@
 /*! https://mths.be/he v1.2.0 by @mathias | MIT license */
 
 /**
-  * vue-class-component v7.2.5
+  * vue-class-component v7.2.6
   * (c) 2015-present Evan You
   * @license MIT
   */
