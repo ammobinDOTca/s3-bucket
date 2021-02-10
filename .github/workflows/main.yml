@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run a one-line script
-      run: echo Hello, world!
+      run: echo Hello, world mmm!
     - name: NodeJS Action Template
       uses: bitoiu/node-js-action-template@v1.0
     - name: Run a multi-line script
