@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a,b){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1614784738",layout:"default",error:a,state:{isCrawler:false,locales:[b,"fr"],locale:b,graphql:{vendors:a,flatItems:new Map([])}},serverRendered:true,routePath:"\u002Fen\u002Freloading\u002FUNKNOWN",config:{}}}(null,"en"));
