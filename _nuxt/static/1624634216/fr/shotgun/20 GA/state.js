@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a,b){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1624634216",layout:"default",error:a,state:{isCrawler:false,locales:["en",b],locale:b,graphql:{vendors:a,flatItems:new Map([])}},serverRendered:true,routePath:"\u002Ffr\u002Fshotgun\u002F20%20GA",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a}}}}(null,"fr"));
