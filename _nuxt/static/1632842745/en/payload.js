@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en", {data:[{vendorCount:52}],fetch:{},mutations:[]});
